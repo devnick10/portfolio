@@ -10,7 +10,7 @@ A personal portfolio built using **Next.js, Shadcn/UI, TailwindCSS, and Framer M
 - **Easily Customizable**  
 
 ## **🔗 Live Link**  
-👉 [Visit My Portfolio](YOUR_PORTFOLIO_LINK)  
+👉 [Visit My Portfolio](https://devnikhil.xyz/)  
 
 ---
 
