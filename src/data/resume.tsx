@@ -27,7 +27,6 @@ export const DATA = {
     "Docker", // Basic knowledge
     "Java", // Basic knowledge
     "C++",
-    "Redis",
     "MongoDB",
     "AWS",
     "Cloudflare Workers",
