@@ -22,6 +22,7 @@ export const DATA = {
     "Hono",
     "TailwindCSS",
     "Prisma",
+    "Redis",
     "Postgres", // Used in projects
     "Docker", // Basic knowledge
     "Java", // Basic knowledge
