@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Fresher web developer passionate about building scalable and user-friendly applications. I love learning new technologies and solving real-world problems.", 
   summary:
-    "I am a fresher web developer with a strong foundation in modern web technologies. I recently completed my Bachelor's degree in Computer Science and have built several projects, including a credit-based SaaS application for media processing. I am actively learning and improving my skills in React, Next.js, and TypeScript.",
+    "I’m a web developer with a strong foundation in modern technologies. I recently completed my Bachelor's in Computer Science and built several projects, including a credit-based SaaS app for media processing. I specialize in React, Next.js, and TypeScript, constantly learning to improve my full-stack skills. Let’s connect and build something awesome! 🚀.",
   avatarUrl: "/me.jpg", 
   skills: [
     "React",
