@@ -8,7 +8,7 @@ export const DATA = {
   location: "Nagpur, Maharashtra", 
   locationLink: "https://www.google.com/maps/place/Nagpur", 
   description:
-    "Fresher web developer passionate about building scalable and user-friendly applications. I love learning new technologies and solving real-world problems.", 
+    "I am a full stack developer passionate about creating scalable and user-friendly applications. Always eager to learn new technologies and solve real-world problems, I strive to build efficient and impactful solutions.", 
   summary:
     "I’m a web developer with a strong foundation in modern technologies. I recently completed my Bachelor's in Computer Science and built several projects, including a credit-based SaaS app for media processing. I specialize in React, Next.js, and TypeScript, constantly learning to improve my full-stack skills. Let’s connect and build something awesome! 🚀.",
   avatarUrl: "/me.jpg", 
