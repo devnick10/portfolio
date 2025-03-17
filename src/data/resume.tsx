@@ -14,15 +14,23 @@ export const DATA = {
   avatarUrl: "/me.jpg", 
   skills: [
     "React",
+    "Redux",
     "Next.js",
     "TypeScript", // Currently learning
     "Node.js",
+    "Express",
+    "Hono",
     "TailwindCSS",
     "Prisma",
     "Postgres", // Used in projects
     "Docker", // Basic knowledge
     "Java", // Basic knowledge
     "C++",
+    "Redis",
+    "MongoDB",
+    "AWS",
+    "Cloudflare Workers",
+    "Turborepo"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
