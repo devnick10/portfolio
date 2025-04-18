@@ -79,10 +79,15 @@ export const DATA = {
         "Prisma",
         "Postgres",
         "Cloudinary",
-        "Clerk",
+        "NextAuth",
         "Razorpay",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://resizely.devnikhil.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "GitHub",
           href: "https://github.com/devnick10/resizely_saas",
@@ -92,7 +97,32 @@ export const DATA = {
       image: "/resizely.png", 
       video: "", 
     },
-    // Add more projects if you have them
+    {
+      title: "Video Streaming App (Backend) – TypeScript",
+      href: "https://github.com/devnick10/rest_api_videotube_app", 
+      dates: "2023 - Present",
+      active: true,
+      description:
+        "A scalable and secure REST API for a video streaming platform where users can upload, watch, and share videos. It features high-quality streaming, Cloudinary-powered media storage, and JWT-based authentication for secure access. Users can post tweets, engage with the community, and comment on videos, making it a dynamic and interactive platform.",
+      technologies: [
+        "Express",
+        "TypeScript",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "Cloudinary",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/rest_api_videotube_app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/video_streaming_backend.png", 
+      video: "", 
+    },
+
   ],
 
 } as const;
