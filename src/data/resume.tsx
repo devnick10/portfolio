@@ -16,16 +16,16 @@ export const DATA = {
     "React",
     "Redux",
     "Next.js",
-    "TypeScript", // Currently learning
+    "TypeScript",
     "Node.js",
     "Express",
     "Hono",
     "TailwindCSS",
     "Prisma",
     "Redis",
-    "Postgres", // Used in projects
-    "Docker", // Basic knowledge
-    "Java", // Basic knowledge
+    "Postgres", 
+    "Docker", 
+    "Java", 
     "C++",
     "MongoDB",
     "AWS",
@@ -76,7 +76,7 @@ export const DATA = {
     {
       title: "Resizely - Media Processing SaaS",
       href: "https://github.com/devnick10/resizely_saas", 
-      dates: "2023 - Present",
+      dates: "2025 - Present",
       active: true,
       description:
         "Resizely is a credit-based SaaS application designed to make media processing easy and efficient. Users can resize images, compress videos, and remove backgrounds, with a credit system that provides free credits and a seamless Razorpay integration for purchasing more.",
@@ -106,9 +106,44 @@ export const DATA = {
       video: "", 
     },
     {
+      title: "pay-wallet - Paytm-like Payment App",
+      href: "https://github.com/devnick10/paytm-app",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "A full-stack payment solution featuring phone verification (Twilio), P2P transfers, and merchant services. Built with Turborepo monorepo architecture, it includes user/merchant dashboards, transaction history, and a mock bank webhook. Implements modern security practices with NextAuth and Zod validation.",
+      technologies: [
+        "Next.js",
+        "Turborepo",
+        "TypeScript",
+        "TailwindCSS",
+        "ShadCN UI",
+        "Prisma",
+        "PostgreSQL",
+        "Twilio",
+        "NextAuth",
+        "Express.js",
+        "Redux"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pay-wallet.devnikhil.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/pay-wallet",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pay-wallet.png",
+      video: "",
+    },
+    {
       title: "Video Streaming App (Backend) – TypeScript",
       href: "https://github.com/devnick10/rest_api_videotube_app", 
-      dates: "2023 - Present",
+      dates: "2024 - Present",
       active: true,
       description:
         "A scalable and secure REST API for a video streaming platform where users can upload, watch, and share videos. It features high-quality streaming, Cloudinary-powered media storage, and JWT-based authentication for secure access. Users can post tweets, engage with the community, and comment on videos, making it a dynamic and interactive platform.",
@@ -130,7 +165,6 @@ export const DATA = {
       image: "/video_streaming_backend.png", 
       video: "", 
     },
-
   ],
 
 } as const;
