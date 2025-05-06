@@ -141,6 +141,34 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Ashoka Candy - Rani Agro Food (Product Landing Page)",
+      href: "https://raniagrofood.com", 
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Official product showcase website for Ashoka Candy manufactured by Rani Agro Food. The responsive landing page highlights our premium fruit candies with sections for product features, manufacturing process, company information, and contact details. Includes interactive elements like product filtering and factory location mapping.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Google Maps API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.raniagrofood.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/candy_store",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/candy-store.png",
+      video: "",
+    },
+    {
       title: "Video Streaming App (Backend) – TypeScript",
       href: "https://github.com/devnick10/rest_api_videotube_app", 
       dates: "2024 - Present",
@@ -164,7 +192,7 @@ export const DATA = {
       ],
       image: "/video_streaming_backend.png", 
       video: "", 
-    },
+    }
   ],
 
 } as const;
