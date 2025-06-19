@@ -3,15 +3,15 @@ import { HomeIcon, } from "lucide-react";
 
 export const DATA = {
   name: "Nikhil Bhoyar",
-  initials: "NB", 
+  initials: "NB",
   url: "https://github.com/devnick10",
-  location: "Nagpur, Maharashtra", 
-  locationLink: "https://www.google.com/maps/place/Nagpur", 
+  location: "Nagpur, Maharashtra",
+  locationLink: "https://www.google.com/maps/place/Nagpur",
   description:
-    "I am a full stack developer passionate about creating scalable and user-friendly applications. Always eager to learn new technologies and solve real-world problems, I strive to build efficient and impactful solutions.", 
+    "I am a full stack developer passionate about creating scalable and user-friendly applications. Always eager to learn new technologies and solve real-world problems, I strive to build efficient and impactful solutions.",
   summary:
     "I’m a web developer with a strong foundation in modern technologies. I recently completed my Bachelor's in Computer Science and built several projects, including a credit-based SaaS app for media processing. I specialize in React, Next.js, and TypeScript, constantly learning to improve my full-stack skills. Let’s connect and build something awesome! 🚀.",
-  avatarUrl: "/me.jpg", 
+  avatarUrl: "/me.jpg",
   skills: [
     "React",
     "Redux",
@@ -23,9 +23,9 @@ export const DATA = {
     "TailwindCSS",
     "Prisma",
     "Redis",
-    "Postgres", 
-    "Docker", 
-    "Java", 
+    "Postgres",
+    "Docker",
+    "Java",
     "C++",
     "MongoDB",
     "AWS",
@@ -34,7 +34,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-   
+
   ],
   contact: {
     email: "bhoyarnikhil683@gmail.com",
@@ -48,13 +48,13 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/nikhil-bhoyar-nb1010/", 
+        url: "https://www.linkedin.com/in/nikhil-bhoyar-nb1010/",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/Nikhil10_02", 
+        url: "https://x.com/Nikhil10_02",
         icon: Icons.x,
         navbar: true,
       },
@@ -65,8 +65,8 @@ export const DATA = {
   education: [
     {
       school: "RTMNU University",
-      href: "https://nagpuruniversity.ac.in",      degree: "B.Sc Computer Science",
-      logoUrl: "https://nagpuruniversity.ac.in/images/rtmnu-logo.png", 
+      href: "https://nagpuruniversity.ac.in", degree: "B.Sc Computer Science",
+      logoUrl: "https://nagpuruniversity.ac.in/images/rtmnu-logo.png",
       start: "07/2020",
       end: "07/2023",
     },
@@ -74,44 +74,12 @@ export const DATA = {
 
   projects: [
     {
-      title: "Resizely - Media Processing SaaS",
-      href: "https://github.com/devnick10/resizely_saas", 
+      title: "PayWallet – Peer-to-Peer Payment App",
+      href: "https://github.com/devnick10/pay-wallet",
       dates: "2025 - Present",
       active: true,
       description:
-        "Resizely is a credit-based SaaS application designed to make media processing easy and efficient. Users can resize images, compress videos, and remove backgrounds, with a credit system that provides free credits and a seamless Razorpay integration for purchasing more.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Prisma",
-        "Postgres",
-        "Cloudinary",
-        "NextAuth",
-        "Razorpay",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://resizely.devnikhil.xyz",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "GitHub",
-          href: "https://github.com/devnick10/resizely_saas",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/resizely.png", 
-      video: "", 
-    },
-    {
-      title: "pay-wallet - Paytm-like Payment App",
-      href: "https://github.com/devnick10/paytm-app",
-      dates: "2025 - Present",
-      active: true,
-      description:
-        "A full-stack payment solution featuring phone verification (Twilio), P2P transfers, and merchant services. Built with Turborepo monorepo architecture, it includes user/merchant dashboards, transaction history, and a mock bank webhook. Implements modern security practices with NextAuth and Zod validation.",
+        "A full-stack UPI-style payment platform enabling secure user authentication, peer-to-peer transfers, and transaction tracking. Features include OTP-based login (Twilio), real-time balance updates, and seamless fund transfers. Built in a monorepo with Turborepo, the user app is fully integrated with the merchant ecosystem.",
       technologies: [
         "Next.js",
         "Turborepo",
@@ -139,10 +107,78 @@ export const DATA = {
       ],
       image: "/pay-wallet.png",
       video: "",
+    }
+    ,
+    {
+      title: "PayWallet Business – Merchant Portal",
+      href: "https://github.com/devnick10/pay-wallet",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "A dedicated merchant platform that complements the PayWallet user app, providing dashboards for managing transactions, payments received, and customer verification. Built within a Turborepo monorepo architecture, it includes secure admin access, earnings insights, QR code generation, and bank webhook integration.",
+      technologies: [
+        "Next.js",
+        "Turborepo",
+        "TypeScript",
+        "TailwindCSS",
+        "ShadCN UI",
+        "Prisma",
+        "PostgreSQL",
+        "Twilio",
+        "NextAuth",
+        "Express.js",
+        "Redux"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://paywallet-merchant.devnikhil.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/pay-wallet",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/merchantlandingPage.png",
+      video: "",
+    },
+    {
+      title: "Resizely - Media Processing SaaS",
+      href: "https://github.com/devnick10/resizely_saas",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Resizely is a credit-based SaaS application designed to make media processing easy and efficient. Users can resize images, compress videos, and remove backgrounds, with a credit system that provides free credits and a seamless Razorpay integration for purchasing more.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Prisma",
+        "Postgres",
+        "Cloudinary",
+        "NextAuth",
+        "Razorpay",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://resizely.devnikhil.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/resizely_saas",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/resizely.png",
+      video: "",
     },
     {
       title: "Ashoka Candy - Rani Agro Food (Product Landing Page)",
-      href: "https://raniagrofood.com", 
+      href: "https://raniagrofood.com",
       dates: "2025 - Present",
       active: true,
       description:
@@ -168,9 +204,11 @@ export const DATA = {
       image: "/candy-store.png",
       video: "",
     },
+
+
     {
       title: "Video Streaming App (Backend) – TypeScript",
-      href: "https://github.com/devnick10/rest_api_videotube_app", 
+      href: "https://github.com/devnick10/rest_api_videotube_app",
       dates: "2024 - Present",
       active: true,
       description:
@@ -190,8 +228,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/video_streaming_backend.png", 
-      video: "", 
+      image: "/video_streaming_backend.png",
+      video: "",
     }
   ],
 
