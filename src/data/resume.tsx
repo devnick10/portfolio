@@ -228,7 +228,7 @@ export const DATA = {
         },
         {
           type: "GitHub",
-          href: "https://github.com/devnick10/rest_api_videotube_app",
+          href: "https://github.com/devnick10/brainly_app",
           icon: <Icons.github className="size-3" />,
         },
       ],
