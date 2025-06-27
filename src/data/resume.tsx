@@ -204,10 +204,39 @@ export const DATA = {
       image: "/candy-store.png",
       video: "",
     },
-
-
     {
-      title: "Video Streaming App (Backend) – TypeScript",
+      title: "Brainly App",
+      href: "https://github.com/devnick10/brainly_app",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Brainly is a simple and powerful web application that allows users to save and share content (like YouTube and Twitter links) for watching later. Think of it as your personal &apos;watch later&apos; vault, with easy sharing capabilities.",
+      technologies: [
+        "Express",
+        "TypeScript",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "React",
+        "TanstackQuery",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://brainly.devnikhil.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/devnick10/rest_api_videotube_app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/brainly.png",
+      video: "",
+    },
+    {
+      title: "Video Streaming App (Backend)",
       href: "https://github.com/devnick10/rest_api_videotube_app",
       dates: "2024 - Present",
       active: true,
