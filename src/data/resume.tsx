@@ -11,7 +11,7 @@ export const DATA = {
     "I am a full stack developer passionate about creating scalable and user-friendly applications. Always eager to learn new technologies and solve real-world problems, I strive to build efficient and impactful solutions.",
   summary:
     "I’m a web developer with a strong foundation in modern technologies. I recently completed my Bachelor's in Computer Science and built several projects, including a credit-based SaaS app for media processing. I specialize in React, Next.js, and TypeScript, constantly learning to improve my full-stack skills. Let’s connect and build something awesome! 🚀.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483282/portfolio/me_pciesu.jpg",
   skills: [
     "React",
     "Redux",
@@ -105,7 +105,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/pay-wallet.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483266/portfolio/pay-wallet_cu3kwf.png",
       video: "",
     }
     ,
@@ -141,7 +141,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/merchantlandingPage.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483268/portfolio/merchantlandingPage_xzjprm.png",
       video: "",
     },
     {
@@ -173,7 +173,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/resizely.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483269/portfolio/resizely_bwp7h6.png",
       video: "",
     },
     {
@@ -201,7 +201,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/candy-store.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483270/portfolio/candy-store_mmeknv.png",
       video: "",
     },
     {
@@ -232,7 +232,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/brainly.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483259/portfolio/brainly_ktsnl3.png",
       video: "",
     },
     {
@@ -257,7 +257,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/video_streaming_backend.png",
+      image: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483303/portfolio/video_streaming_backend_pkvicl.png",
       video: "",
     }
   ],

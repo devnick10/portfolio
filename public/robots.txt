@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.devnikhil.xyz
+
+# Sitemaps
+Sitemap: https://www.devnikhil.xyz/sitemap.xml
