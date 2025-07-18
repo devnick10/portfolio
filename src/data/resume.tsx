@@ -12,6 +12,19 @@ export const DATA = {
   summary:
     "I’m a web developer with a strong foundation in modern technologies. I recently completed my Bachelor's in Computer Science and built several projects, including a credit-based SaaS app for media processing. I specialize in React, Next.js, and TypeScript, constantly learning to improve my full-stack skills. Let’s connect and build something awesome! 🚀.",
   avatarUrl: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1751483282/portfolio/me_pciesu.jpg",
+  work: [
+    {
+      company: "Sapalogy - IT ACCURATE",
+      href: "https://itaccurate.com",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack Software Developer",
+      logoUrl: "https://res.cloudinary.com/dnr1sgjrx/image/upload/v1752851590/portfolio/image_o9qmgm.png",
+      start: "Aug 2023",
+      end: "present",
+      description:"Developed full-stack web applications using the MERN stack and Next.js for SSR and performance optimization. Created scalable REST APIs, integrating PostgreSQL and MongoDB for reliable data operations Used TypeScript for safer, more maintainable code and better team collaboration. Containerized backend services with Docker for consistent development and deployment. Utilized Git/GitHub, Postman, Jira to manage tasks, version control, and API testing. Collaborated with designers to build responsive UIs using React.js and Tailwind CSS. Emphasized performance optimization through debugging, profiling, and code refactoring."
+    }
+  ],
   skills: [
     "React",
     "Redux",
