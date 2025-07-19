@@ -38,7 +38,6 @@ export const DATA = {
     "Redis",
     "Postgres",
     "Docker",
-    "Java",
     "C++",
     "MongoDB",
     "AWS",
